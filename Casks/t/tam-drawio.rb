@@ -1,10 +1,10 @@
 cask "tam-drawio" do
-  version "0.1"
+  version "1.0"
   sha256 :no_check
 
   url "https://github.com/roeschjohannes/tam-drawio.git#main"
   name "tam-drawio"
-  desc "TAM plugin for draw.io"
+  desc "TAM extension for draw.io"
   homepage "https://github.com/roeschjohannes/tam-drawio"
   
   depends_on cask: "drawio"
